@@ -11,7 +11,7 @@
   ],
   "routes": [
     {
-      "src": "/tmp(.*)",
+      "src": "/(.*)",
       "dest": "server.cjs"
     }
   ]
