@@ -1,6 +1,6 @@
 const jsonServer = require("json-server");
 const server = jsonServer.create();
-const router = jsonServer.router("tmp/db.json");
+const router = jsonServer.router("https://clincalissues.000webhostapp.com/files/db.json");
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
@@ -13,7 +13,9 @@ server.use(
     "/blog/:resource/:id/show": "/:resource/:id",
   })
 );
+
 server.use(router);
+
 server.listen(3000, () => {
   console.log("JSON Server is running");
 });
