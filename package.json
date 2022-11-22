@@ -2,9 +2,8 @@
   "name": "api",
   "version": "1.0.0",
   "description": "\"JSON SERVER to deploy on vercel\"",
-  "main": "server.cjs",
   "scripts": {
-    "start": "node server.cjs"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
