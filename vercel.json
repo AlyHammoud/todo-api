@@ -5,7 +5,7 @@
       "src": "server.cjs",
       "use": "@vercel/node",
       "config": {
-        "includeFiles": ["tmp/db.json"]
+        "includeFiles": ["https://clincalissues.000webhostapp.com/files/db.json"]
       }
     }
   ],
