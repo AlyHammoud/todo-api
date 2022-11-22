@@ -1,15 +1,17 @@
 {
+  "version": 2,
   "builds": [
     {
       "src": "server.cjs",
       "use": "@vercel/node",
       "config": {
-        "includeFiles": ["db.json"]
+        "includeFiles": ["tmp/db.json"]
       }
     }
   ],
   "routes": [
     {
+      "dest": "server.cjs"
       "dest": "server.cjs"
     }
   ]
