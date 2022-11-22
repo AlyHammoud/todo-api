@@ -4,7 +4,7 @@
   "description": "\"JSON SERVER to deploy on vercel\"",
   "main": "server.cjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.cjs"
   },
   "author": "",
   "license": "ISC",
